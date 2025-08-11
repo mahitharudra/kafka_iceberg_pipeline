@@ -10,6 +10,7 @@ producer = KafkaProducer(
 test_messages = [
     {"id": "101", "product": "Tablet", "amount": 299.99, "sale_date": "2025-07-23"},
     {"id": "102", "product": "Mouse", "amount": 25.99, "sale_date": "2025-07-23"},
+    {"id": "103", "product": "laptop", "amount": 32.99, "sale_date": "2024-07-23"},
 ]
 
 if __name__ == "__main__":
